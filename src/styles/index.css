@@ -9,3 +9,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.Caja {
+    margin: 5%;
+    justify-content: center;
+    border-radius: 15%;
+    border: solid;
+    border-color: black;
+    background-color: black;
+    width: 500px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Caja div{
+    margin: 5%;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+.lightOn{
+    box-shadow: 0px 0px 50px 20px rgb(219, 241, 190);
+}
